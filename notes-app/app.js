@@ -4,7 +4,7 @@ const notes = require('./notes.js')
 
 // Customize yargs version
 yargs.version('1.1.0')
-
+console.log(process.argv)
 // Create add command
 yargs.command({
     command: 'add',
