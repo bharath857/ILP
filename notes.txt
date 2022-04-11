@@ -12,7 +12,8 @@ Weather deployed URL:- https://baymax-weather-app.herokuapp.com/
 -------------------
 Mongodb
 ----Place where it is store------                  ----place where data is store--------
-/Users/Manoranjan/mongodb/bin/mongod.exe --dbpath=/Users/Manoranjan/Desktop/Bharath/mongo-data
+/Users/Manoranjan/mongodb/bin/mongod.exe --dbpath=/Users/Manoranjan/Desktop/Bharath/Git/create/task-manager/mongodata
 
+C:\Users\Manoranjan\Desktop\Bharath\Git\create\task-manager\mongodata
 once started refer
 mongo-connect-example
