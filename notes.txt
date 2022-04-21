@@ -1,18 +1,23 @@
 Heroku: 
-1.git push origin master
+1.git push origin main
 2.heroku create project_name  ( will show url at end)
-3.git push heroku master ( will show url at end)
+3.git push heroku main ( will show url at end)
+
+
+re-establish
+heroku git:remote --app=projectname
+git push heroku main
 
 update package.json
  "start": "node src/app.js"
 
 Weather deployed URL:- https://baymax-weather-app.herokuapp.com/
-
+Task manager api URL:- https://baymax-task-manager-api.herokuapp.com/
 
 -------------------
 Mongodb
 ----Place where it is store------                  ----place where data is store--------
-/Users/Manoranjan/mongodb/bin/mongod.exe --dbpath=/Users/Manoranjan/Desktop/Bharath/Git/create/task-manager/mongodata
+/Users/Manoranjan/mongodb/bin/mongod.exe --dbpath=/Users/Manoranjan/Desktop/Bharath/mongo-data
 
 C:\Users\Manoranjan\Desktop\Bharath\Git\create\task-manager\mongodata
 once started refer
