@@ -29,7 +29,7 @@ doWorkPromise.then((result) => {
 //
 //                               fulfilled
 //                              /
-// Promise      -- pending --> 
+// Promise      -- pending -->
 //                              \
 //                               rejected
 //
